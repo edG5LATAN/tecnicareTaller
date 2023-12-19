@@ -1,0 +1,46 @@
+.promociones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.promociones-caja{
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 3px 3px 2px 3px;
+}
+.promociones-caja:hover{
+  transform: scale(1.02);
+}
+.promociones-caja>img{
+  width: 100%;
+  height: 320px;
+}
+.promociones-caja>h3{
+  color: blue;
+}
+.promociones-caja>p{
+  margin: 10px 0;
+  font-size: 18px;
+}
+.promociones-caja>p>span{
+  color: red;
+  font-weight: bolder;
+}
+.promociones-caja>button{
+  width: 120px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  font-size: 19px;
+}
+.promociones-caja>button:hover{
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}

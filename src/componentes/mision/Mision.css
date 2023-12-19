@@ -1,0 +1,42 @@
+.mision{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #011638;
+  padding-top: 20px;
+}
+.mision>h2{
+  margin-top: 15px ;
+  color: white;
+}
+.mision>p{
+  color: white;
+  text-align: justify;
+  padding: 10px 15px;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  width: 80%;
+}
+.mision-contenedor{
+  width: 80%;
+  background-color: rgb(241, 236, 236);
+  margin: 50px 0;
+
+  border-radius: 15px;
+}
+.mision-contenedor1{
+  text-align: center;
+  gap: 1rem;
+  padding: 25px ;
+  margin-bottom:10px  ;
+}
+.mision-contenedor1>h2{
+  padding: 10px;
+}
+.mision-contenedor1>p{
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+  
+}

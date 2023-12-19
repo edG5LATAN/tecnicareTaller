@@ -1,0 +1,29 @@
+.reparaciones{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px 0 0 0;
+}
+.reparaciones-caja{
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+}
+.reparaciones-caja>p{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.reparaciones-caja:hover{
+  transform: scale(1.02);
+}
+.reparaciones-caja>img{
+  width: 90%;
+  height: 90%;
+}

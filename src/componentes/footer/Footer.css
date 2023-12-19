@@ -1,0 +1,16 @@
+.footer{
+background-color: black;
+text-align: center;
+padding: 4px 0;
+}
+.footer>h6{
+  color: white;
+  font-size: 9px;
+}
+.footer>h6>span{
+  color: gold;
+}
+.footer>p{
+  color: white;
+  font-size:9px ;
+}

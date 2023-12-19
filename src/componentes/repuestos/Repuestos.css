@@ -1,0 +1,45 @@
+.repuestos{
+ width: 90%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.repuesto-cajaSlider{
+  width: 70%;
+}
+.image-gallery-image{
+  width: 100%;
+  height: 400px;
+}
+.repuestos-info{
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  padding: 15px 10px;
+  margin-top: 10px;
+  border-radius: 9px;
+  box-shadow: 3px 3px 3px 2px;
+}
+.repuestos-info>h3{
+  font-size: 26px;
+  padding: 5px 0;
+}
+.repuestos-info>p{
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+}
+.repuestos-info>button{
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgb(157, 157, 180);
+}
+.repuestos-info>button:hover{
+  cursor: pointer;
+  transform: scale(1.0);
+}

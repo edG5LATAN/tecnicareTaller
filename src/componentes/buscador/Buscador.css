@@ -1,0 +1,24 @@
+.buscador{
+  background-color: #556c92;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 1em;
+}
+.buscador>input{
+  width: 350px;
+  padding: 5px;
+  border-radius: 9px;
+  font-size: 19px;
+  text-align: center;
+}
+.buscador>button{
+  padding: 5px;
+  border-radius: 9px;
+  font-size: 19px;
+  text-align: center;
+  border: none;
+  width: 120px;
+}

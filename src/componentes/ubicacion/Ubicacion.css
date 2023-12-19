@@ -1,0 +1,39 @@
+.ubicacion{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.ubicacion>h2{
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.ubicacion-info{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+}
+.ubicacion-info>h2{
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+.ubicacion-info>p{
+  width: 70%;
+  font-size: 22px;
+  text-align: justify;
+}
+.ubicacion>iframe{
+  width: 80%;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 15px;
+}

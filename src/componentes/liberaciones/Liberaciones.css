@@ -1,0 +1,61 @@
+.liberacion-caj{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px;
+  margin-bottom: 35px;
+}
+.servicios>h2{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.servicios-caja{
+  display: flex;
+
+}
+.servicios-caja>img{
+  width: 50%;
+  height:350px ;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+}
+.servicios-info{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.servicios-info>h3{
+  padding: 10px 0;
+  font-size: 26px;
+}
+.servicios-info>p{
+  text-align: center;
+  padding: 10px;
+  font-size: 19px;
+}
+.servicios-info>button{
+  width: 150px;
+  padding: 5px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.servicios-info>button:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.opciones{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.opciones1{
+  width: 300px;
+  height: auto;
+  padding: 10px 5px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.opciones1>h3{
+  text-transform: capitalize;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 20px;
+}
+.opciones1>img{
+  width: 80px;
+}
+.opciones1>p{
+  text-align:justify;
+  margin: 5px 0;
+  padding: 5px ;
+  font-size: 18px;
+}
+.opciones1>button{
+  margin: 10px 0;
+  width: 120px;
+  padding: 5px;
+  font-size: 19px;
+  border: none;
+  border-radius: 8px;
+}
+.opciones1>button:hover{
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}

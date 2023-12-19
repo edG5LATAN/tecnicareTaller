@@ -1,0 +1,73 @@
+.informacion{
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: black; */
+  padding-top: 20px;
+  
+}
+.informacion-contenedor-cajas{
+  width: 30%;
+  background-color: black;
+  height: 300px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.informacion-contenedor-cajas>a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.informacion-contenedor-cajas>p{
+  color: white;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.informacion-contenedor-cajas>p:hover{
+  cursor: pointer;
+}
+.informacion-contenedor-cajas>form{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.informacion-contenedor-cajas>form>input{
+  width: 250px;
+  padding: 5px;
+  font-size: 19px;
+  border-radius: 8px;
+  border: none;
+}
+.informacion-contenedor-cajas>form>button{
+  width: 120px;
+  padding: 5px;
+  font-size: 19px;
+  border: none;
+  border-radius: 8px;
+}
+.face-icon:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.insta-icon{
+  color: red;
+}
+.insta-icon:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.whatsapp-icon:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
